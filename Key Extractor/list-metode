@@ -1,0 +1,96 @@
+Algoritma yang dapat digunakan
+keyword exr
+metode=[
+'Keyphrase Extraction Algorithm(KEA)',
+'TEXTRANK(TR)',
+'Genitor-plus-Extractor (GenEx)',
+'HybridRank (HR)',
+]
+
+explain=[
+KEA=>
+'Automatic keyphrase extraction adalah
+sebuah proses untuk menghasilkan daftar
+keyphrase yang dapat mewakili poin-poin
+penting dari sebuah teks. Automatic keyphrase
+extraction adalah sebuah bentuk implementasi
+dari text mining.
+
+Keyphraseextraction is a fundamental step for various tasks of Natural
+Language processing (NLP)e.g. document classification,
+document clustering, and text summarization Keyphrases are usually assigned manually,professional
+indexers assign keyphrases to documents from a “controlled
+vocabularies” relevant to document domain.
+',
+
+TR=>
+'Metode
+TextRank menggunakan pemodelan graf yang tidak membutuhkan data latih dalam
+pemrosesannya sehingga bisa lebih cepat.
+
+TextRank adalah algoritma peringkat berbasis grafik untuk memproses teks. 
+
+lbh baik dari TD-IDF(biasanya digunakan pada text summarization)
+
+dalam beberap penulitian mengatakan akurasi tinggi
+Zhang, X., An, J., & Liu, W. 2017. Research And Implementation Of Keyword
+Extraction Algorithm Based On Professional Background Knowledge. 2017
+10th International Congress on Image and Signal Processing, BioMedical
+Engineering and Informatics (CISP-BMEI 2017).
+',
+
+genex=>
+'Genitor yang merupakan akronim dari
+Genetic ImplemenTOR, adalah algoritma
+genetika steady-state, yang berbeda dengan
+banyak algoritma genetika lainnya. Algoritma
+genetika steady-state memperbaharui populasi
+hanya satu individu di satu waktu,
+mengakibatkan perubahan populasi yang terus
+menerus, dengan tidak ada beda generasi.',
+
+hr=>
+'HybridRank yaitu metodegabungan TextRank dan KEA pada penelitian Pada penelitian ini menggunakan koleksi dokumen dari IEEE
+Xplore sebanyak 1606 dokumen dan koleksi dokumen Hulth 2003 sebanyak 2000
+dokumen yang didalamnya mengandung bagian abstrak. Pada penelitiannya ini
+dapat menghasilkan daftar keyphrase dengan kualitas terbaik untuk artikel pendek
+berupa abstrak tersebut.
+Figueroa, G., & Chen, Y. S. 2014. Collaborative Ranking between Supervised and
+Unsupervised Approaches for Keyphrase Extraction. ROCLING XXVI
+(2014), pp. 110-124.'
+]
+Penelitian Serupa
+IMPLEMENTATION OF INFORMATION EXTRACTION TEXT DOCUMENTSSKRIPSIUSING RULED BASED METHOD
+EKSTRAKSI KATA KUNCI OTOMATIS UNTUK DOKUMEN BAHASA INDONESIA STUDI KASUS: ARTIKEL JURNAL ILMIAH KOLEKSI PDII LIPI
+
+Rancangan Judul yang telah terfikirkan
+- Ekstraksi Kata Kunci pada Website imajisociopreneur.id untuk penggunaan auto tag/kategori menggunakan metode {metode}
+- Otomatisasi tag/kategori untuk Blog di Website imajisociopreneur.id menggunakan Ekstraksi Kata Kunci dengan metode {metode}
+- Penerapan Text rank untu ekstraksi kata kunci pada jurnal ilmiah
+
+Pengujian Keberhasilan metode 
+- keberhasilan program melakukan generate kata kunci
+- melalui wawancara kepada penulis blog di website imajisociopreneur tentang kesesuaian tulisan dengan saran kata kunci
+- 
+
+
+other link:
+https://openlibrary.telkomuniversity.ac.id/pustaka/96063/ekstraksi-kata-kunci-dengan-keyphrase-extraction-algorithm-pada-dokumen-social-media-berbahasa-indonesia.html
+
+
+konklusi
+genex algoritma genetika yang harus disesuaikan dengan kea namun tetap dapat digunakan karena sifat metode genex masih sangat sejenis dengan KEA maupun textrank yang sama sama pengngunaan populasi text yang digunakan.
+
+text rank adalah metode yang dapat memproses teks yang dimodelkan ke suatu grafik/graf
+
+kea adalah metode yang dapat memproses untuk menghasilkan daftar
+keyphrase yang dapat mewakili poin-poin
+penting dari sebuah teks
+
+HybridRank yaitu metodegabungan TextRank dan KEA
+
+
+Langkah-langkah 
+A. Sentence Scores Computation
+
+
